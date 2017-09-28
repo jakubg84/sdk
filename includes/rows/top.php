@@ -24,12 +24,23 @@ defined('_JEXEC') or die;
 <!-- TOP RIGHT
 ================================================================================== -->
 <?php if ($this->countModules('top-box-right')) : ?>
-    <div class="top-box-right col-lg-4 col-xs-12">
+    <div class="top-box-right col-lg-3 col-xs-12">
             <jdoc:include type="modules" name="top-box-right" style="xhtml" />
         </div>
 <?php endif ?>
 
 <!--  KONIEC TOP RIGHT
+ ================================================================================== --> 
+ 
+ <!-- TOP RIGHT 2
+================================================================================== -->
+<?php if ($this->countModules('top-box-right2')) : ?>
+    <div class="top-box-right2 col-lg-1 col-xs-12">
+            <jdoc:include type="modules" name="top-box-right2" style="xhtml" />
+        </div>
+<?php endif ?>
+
+<!--  KONIEC TOP RIGHT 2
  ================================================================================== --> 
  </div>
  </div>
