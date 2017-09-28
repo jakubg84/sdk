@@ -1,0 +1,90 @@
+
+
+/*  MENU TOP  */
+
+
+
+.readmore > a,
+p.readmore > a {background:#ffed00; color:#000; padding:4px .8em; display:inline-block; margin:2px 0; text-decoration:none; border-radius:0; font-size:.9em;}
+.readmore > a:hover,
+p.readmore > a:hover {background:#000; color:#ffed00; text-decoration:none;}
+
+
+
+
+/*    HOME   */
+
+
+
+
+/* ++++++++++++++  PAGINACJA STRON  ++++++++++++++ */
+
+.pagination {    clear: both; color: #000;margin: 15px auto 0;padding: 5px 10px;text-align: center;width: 85%;}
+.pagination p.counter {    background-color: #e5e5e5;border: 1px solid #999;float: left;padding: 2px 5px;}
+.pagination ul { list-style: none outside none; margin: 0; padding: 5px 15px;}
+.pagination ul li {    display: inline;list-style: none outside none;padding: 0 5px;}
+.pagination a { color: #000;}
+.pagenav { background-color: #e5e5e5; border: 1px solid #999; padding: 2px 5px;}
+.pagenav .pagenav-next, .pagenav .pagenav-prev {  list-style: none outside none; padding-left: 15px; padding-right: 15px;  width: auto;}
+.pagenav .pagenav-next a {display:inline-block;} 
+.pagenav .pagenav-prev { float: left;}
+
+.item-page ul.pagenav {overflow:hidden; padding:5px; width:30%; margin-top:25px; display:block; clear:both;}
+.item-page ul.pagenav li {display:inline-block; float:left;}
+
+/*    STOPKA     */
+#box-down-all {padding:25px 5em 10px; background:#fff;}
+#box-down-all ul li {list-style:none; display:inline-block;}
+
+
+
+
+/* ---- DESKTOP 1200px & WIĘKSZE -------------------------------------------------------------------- */
+/* BIG desktop */
+@media (min-width: 1200px) { 
+
+	
+}
+
+
+/* ---- DESKTOP 992px -------------------------------------------------------------------- */
+/* Desktop ------------------------- */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+		
+}
+
+
+
+/* ---- TABLET - MOBILE 768px & WIĘKSZE ------------------------------------------------------------ */
+/* TABLET - MOBILE -  */
+@media (min-width: 768px) and (max-width: 991px) {
+
+
+} 
+
+
+
+/* ---- MOBILE 480px -------------------------------------------------------------------- */
+
+
+@media (max-width: 767px) { 
+
+#home-box-all, #main-content-box {    padding: 15px 1em 10px;}
+#footer-box .foot-2 {display:block; margin-top:25px; }	
+#footer-box .foot-2 ul {margin-left: 0px;}
+.site .navbar-default .navbar-toggle .icon-bar {    background-color: #000;}
+.site .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    background-color: #000;}
+.navbar-default .navbar-toggle .icon-bar:hover {
+    background-color: #ffed00;
+}
+.site .navbar-default .navbar-toggle {border-color: #000;}
+#footer-box .foot-3 .icon-fb { display:none;}
+
+
+}
+
+
+
+

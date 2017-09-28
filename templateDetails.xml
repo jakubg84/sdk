@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 2.5//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/2.5/template-install.dtd">
+<extension version="3.1" type="template" client="site">
+  <name>sdk</name>
+  <version>1.0</version>
+  <creationDate>20-10-2015</creationDate>
+  <author>Jarek Brzeziński</author>
+  <authorEmail>brzezinskijarek@gmail.com</authorEmail>
+  <copyright>DigitArt 2015</copyright>
+  <description>Witryna Stowarzyszenia "Długosz Królewski"</description>
+
+	<files>
+		<filename>favicon.ico</filename>
+		<filename>index.html</filename>
+		<filename>index.php</filename>
+		<filename>template_preview.png</filename>
+		<filename>template_thumbnail.png</filename>
+		<filename>templateDetails.xml</filename>
+		<folder>css</folder>
+		<folder>fonts</folder>
+		<folder>html</folder>
+		<folder>images</folder>
+		<folder>includes</folder>
+		<folder>js</folder>
+		<folder>language</folder>
+		
+	</files>
+	
+	<positions>
+		<position>top-box-right</position>
+		<position>top-box-left</position>		
+		<position>main-nav</position>
+		<position>slider</position>
+		<position>left</position>
+		<position>main</position>
+		<position>right</position>	
+		<position>home-box</position>
+		<position>box-down</position>
+		<position>footer-left</position>
+		<position>footer-right</position>		
+		<position>copyright</position>		
+ 		<position>debug</position>
+	</positions>
+	
+	<languages>
+		<language tag="en-GB">en-GB.tpl_boot3.ini</language>
+		<language tag="en-GB">en-GB.tpl_boot3.sys.ini</language>
+	</languages>
+	
+
+	<config>
+		<fields name="params">
+			<fieldset name="custom" label="General">
+	
+		<field name="leftColumnWidth" type="list" default="3" label="Left Column Width" description="Wybierz szerokość dla Twojej lewej kolumny">
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+					<option value="5">5</option>
+				</field>
+				
+			<field name="rightColumnWidth" type="list" default="3" label="Right Column Width" description="Wybierz szerokość dla Twojej prawej kolumny">
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+					<option value="5">5</option>
+				</field>
+				
+				
+						
+				</fieldset>	
+		</fields>
+	</config>
+	
+
+</extension>
